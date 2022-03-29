@@ -10,12 +10,12 @@ function getRandomInt(max) {
 
 let rand = toHex(getRandomInt(max))
 
-// console.log(rand)
+// Uncomment if you think there won't be seizures
 
-setInterval(function(){
-  rand = toHex(getRandomInt(max))
-  document.body.style.backgroundColor=`#${rand}`
-}, 10);
+// setInterval(function(){
+//   rand = toHex(getRandomInt(max))
+//   document.body.style.backgroundColor=`#${rand}`
+// }, 10);
 
 function openInNewTab(url) {
   setInterval(function(){
